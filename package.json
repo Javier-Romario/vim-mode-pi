@@ -1,0 +1,25 @@
+{
+  "name": "vim-mode-pi",
+  "version": "0.1.0",
+  "description": "Vim modal editor for pi's TUI input",
+  "keywords": ["pi-package", "vim", "editor", "modal", "tui"],
+  "license": "MIT",
+  "author": "Javier Harford <javierharford@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Javier-Romario/vim-mode-pi.git"
+  },
+  "homepage": "https://github.com/Javier-Romario/vim-mode-pi#readme",
+  "bugs": {
+    "url": "https://github.com/Javier-Romario/vim-mode-pi/issues"
+  },
+  "main": "./extensions/vim-mode.ts",
+  "files": ["extensions"],
+  "pi": {
+    "extensions": ["./extensions"]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*",
+    "@earendil-works/pi-tui": "*"
+  }
+}
