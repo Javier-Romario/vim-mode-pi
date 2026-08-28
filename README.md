@@ -4,11 +4,32 @@ Vim modal editing for pi's TUI input. Normal + insert modes, motions, operators,
 
 ## Install
 
+From npm:
+
+```bash
+pi install npm:vim-mode-pi
+```
+
+Pin a version:
+
+```bash
+pi install npm:vim-mode-pi@0.1.0
+```
+
+Or install from git / local path:
+
 ```bash
 pi install git:github.com/Javier-Romario/vim-mode-pi@v0.1.0
+pi install ./path/to/vim-mode-pi   # dev
 ```
 
 Then `/reload` (or restart pi).
+
+To try without installing:
+
+```bash
+pi -e npm:vim-mode-pi
+```
 
 ## Modes
 
